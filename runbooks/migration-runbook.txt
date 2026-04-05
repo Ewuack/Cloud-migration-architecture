@@ -1,0 +1,26 @@
+AWS Migration Runbook
+
+1. Pre-Migration
+   - Validate backups
+   - Confirm IAM roles
+   - Test VPN/Direct Connect
+   - Freeze on-prem changes
+
+2. Migration Steps
+   - Deploy VPC + subnets
+   - Launch EC2 app tier
+   - Configure RDS
+   - Migrate database using DMS
+   - Sync file storage to S3
+   - Update DNS records
+
+3. Cutover
+   - Switch traffic to ALB
+   - Validate application health
+   - Monitor CloudWatch metrics
+
+4. Post-Migration
+   - Enable Auto Scaling
+   - Configure CloudTrail + GuardDuty
+   - Optimize RDS performance
+   - Review cost dashboards
