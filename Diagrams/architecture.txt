@@ -1,0 +1,9 @@
+On-Prem Data Center
+   │
+   │ VPN / Direct Connect
+   │
+AWS VPC
+   ├── Public Subnet (ALB, NAT)
+   ├── Private Subnet (EC2, Auto Scaling)
+   └── Private Subnet (RDS Multi-AZ)
+...
