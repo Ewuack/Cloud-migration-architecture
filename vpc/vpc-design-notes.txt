@@ -1,0 +1,14 @@
+AWS VPC Design Notes
+
+- VPC CIDR: 10.0.0.0/16
+- Public Subnets: 10.0.1.0/24, 10.0.2.0/24
+- Private Subnets: 10.0.3.0/24, 10.0.4.0/24
+- NAT Gateway in public subnet
+- Internet Gateway attached to VPC
+- Route tables:
+  - Public RT: IGW route
+  - Private RT: NAT route
+- Security Groups:
+  - ALB SG: Allow 80/443 inbound
+  - EC2 SG: Allow 8080 from ALB SG
+  - RDS SG: Allow 5432 from EC2 SG
