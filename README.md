@@ -18,7 +18,7 @@ This repository documents a structured cloud migration program moving legacy on-
 
 ## Repository Structure
 
-aws-cost-migration-architecture/
+aws-migration-architecture/
 |-- Diagrams/          # Architecture diagrams, network topology, migration flow visuals
 |-- iam/               # IAM policies, role definitions, least-privilege access controls
 |-- monitoring/        # CloudWatch configs, alerting rules, health check dashboards
