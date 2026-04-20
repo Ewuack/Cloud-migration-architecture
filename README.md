@@ -18,7 +18,7 @@ This repository documents a structured cloud migration program moving legacy on-
 
 ## Repository Structure
 
-aws-migration-architecture/
+cloud-migration-architecture/
 |-- Diagrams/          # Architecture diagrams, network topology, migration flow visuals
 |-- iam/               # IAM policies, role definitions, least-privilege access controls
 |-- monitoring/        # CloudWatch configs, alerting rules, health check dashboards
@@ -46,7 +46,7 @@ aws-migration-architecture/
 |--------|--------|-------|--------|
 | Infrastructure Cost | $42K/month | $25K/month | **-40% reduction** |
 | System Availability | 99.5% | 99.95% | **Near-zero downtime** |
-| Disaster Recovery RTO | 24+ hours | under 1 hour | **Business continuity** |
+| Disaster Recovery RTO | 24+ hours | Under 1 hour | **Business continuity** |
 | Security Posture | Manual audits quarterly | Automated continuous | **Real-time compliance** |
 | Deployment Velocity | 2-week cycles | Daily releases | **5x faster delivery** |
 
